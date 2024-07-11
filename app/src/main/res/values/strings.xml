@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">UBER CLON DRIVER KOTLIN</string>
+    <string name="uber_clon_title">UBER</string>
+    <string name="email_editText">Correo electrónico</string>
+    <string name="pass_editText">Contraseña</string>
+    <string name="login_txt">Iniciar Sesión</string>
+    <string name="checkin_txt">Registrarse</string>
+    <string name="you_already_have_account">¿Ya tienes cuenta?</string>
+    <string name="Sign_up">Regístrate</string>
+    <string name="last_name">Apellido</string>
+    <string name="name">Nombre</string>
+    <string name="phone_number">Teléfono</string>
+    <string name="confirm_pass">Confirmar Contraseña</string>
 </resources>
