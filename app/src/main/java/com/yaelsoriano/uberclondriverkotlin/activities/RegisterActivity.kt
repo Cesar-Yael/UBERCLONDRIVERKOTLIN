@@ -8,13 +8,14 @@ import android.view.WindowManager
 import android.widget.Toast
 import com.yaelsoriano.uberclondriverkotlin.databinding.ActivityRegisterBinding
 import com.yaelsoriano.uberclondriverkotlin.models.Client
+import com.yaelsoriano.uberclondriverkotlin.models.Driver
 import com.yaelsoriano.uberclondriverkotlin.providers.AuthProvider
-import com.yaelsoriano.uberclondriverkotlin.providers.ClientProvider
+import com.yaelsoriano.uberclondriverkotlin.providers.DriverProvider
 
 class RegisterActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegisterBinding
     private val authProvider = AuthProvider()
-    private val clientProvider = ClientProvider()
+    private val driverProvider = DriverProvider()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,14 +44,14 @@ class RegisterActivity : AppCompatActivity() {
 
         authProvider.register(email, pass).addOnCompleteListener {
             if (it.isSuccessful) {
-                val client = Client(
+                val driver = Driver(
                     id = authProvider.getId(),
                     name = name,
                     lastname = lastname,
                     phone = phone,
                     email = email
                 )
-                clientProvider.create(client).addOnCompleteListener {
+                driverProvider.create(driver).addOnCompleteListener {
                     if (it.isSuccessful) {
                         goToMap()
                         Toast.makeText(this, "Registro exitoso!", Toast.LENGTH_LONG).show()

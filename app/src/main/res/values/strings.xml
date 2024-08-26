@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">UBER CLON DRIVER KOTLIN</string>
+    <string name="google_maps_key">AIzaSyAGf6-OwTxUOlJ5LQy7FwboDa_07OJ8OzU</string>
     <string name="uber_clon_title">UBER</string>
     <string name="email_editText">Correo electrónico</string>
     <string name="pass_editText">Contraseña</string>
