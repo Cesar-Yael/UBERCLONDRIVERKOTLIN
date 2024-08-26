@@ -7,11 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".activities.MapActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Map activity"
-        android:textSize="27sp"/>
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
