@@ -60,10 +60,17 @@ dependencies {
     implementation("com.google.maps.android:maps-utils-ktx:3.2.0")
     implementation("com.google.maps.android:android-maps-utils:2.2.3")
     implementation("com.google.android.gms:play-services-maps:19.0.0")
-    implementation("com.google.android.gms:play-services-location:21.3.0")
+    //21.3.0 tiene probelmas
+    implementation("com.google.android.gms:play-services-location:20.0.0")
+
+    //GeoFirestore
+    implementation("com.github.imperiumlabs:GeoFirestore-Android:v1.4.0")
+
+    //Easy Way Location
+    implementation("com.github.prabhat1707:EasyWayLocation:2.4")
 
 
     testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.test.ext:junit:1.2.1")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
 }
