@@ -37,7 +37,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/uber_clon_title"
+                android:text="@string/uber_clone_title"
                 android:textColor="@color/white"
                 android:textSize="75sp"
                 android:fontFamily="sans-serif-medium"

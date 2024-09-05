@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "UBER CLON DRIVER KOTLIN"
+rootProject.name = "UBER CLONE DRIVER KOTLIN"
 include(":app")
  

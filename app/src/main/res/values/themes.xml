@@ -1,11 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.UBERCLONDRIVERKOTLIN" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.UBERCLONEDRIVERKOTLIN" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
-
-    <style name="Theme.UBERCLONDRIVERKOTLIN" parent="Base.Theme.UBERCLONDRIVERKOTLIN">
+    <style name="Theme.UBERCLONEDRIVERKOTLIN" parent="Base.Theme.UBERCLONEDRIVERKOTLIN">
         <item name="colorPrimary">@color/grey_2</item>
         <item name="colorPrimaryVariant">@color/grey_2</item>
         <item name="colorOnPrimary">@color/grey_2</item>
